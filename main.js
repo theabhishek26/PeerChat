@@ -1,4 +1,4 @@
-let APP_ID = "YOU-APP-ID"
+let APP_ID = "e570ca5a8136437b8d458ed3e0412411"
 
 
 let token = null;
@@ -78,6 +78,7 @@ let handleMessageFromPeer = async (message, MemberId) => {
 
 
 }
+//peerConnection.addIceCandidate(message.candidate)
 
 let handleUserJoined = async (MemberId) => {
     console.log('A new user joined the channel:', MemberId)
